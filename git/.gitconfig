@@ -1,0 +1,24 @@
+[user]
+	name = #USERNAME#
+	email = #EMAIL#
+[core]
+	excludesfile = ~/.gitignore
+[mergetool]
+	keepbackup = false
+[push]
+	default = tracking
+[color]
+	branch = auto
+	diff = auto
+	status = auto
+	status = auto
+[alias]
+	b = branch
+	ci = commit
+	l = log
+	st = status
+	sg = stage
+	ac = !git add -A && git commit
+	rmc = rm --cached
+	rv = checkout --
+	co = checkout
